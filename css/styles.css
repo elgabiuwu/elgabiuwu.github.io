@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-size: 25px;
+}
+h2{
+    color: black;
+}
+
+.tipografia{
+    color: black;
+}
+
+nav{
+    position: absolute;
+    right: 20px;
+}
+
+nav {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.Instagram{
+    color: black;
+    text-decoration: none;
+}
+
+.slider{
+    width: 65%;
+    margin: 10px auto;
+}
+
+.producto_destacado{
+    margin: 10px auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: #020024;
+    background: linear-gradient(233deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: black
+}
+
+.imagen {
+    width: 95%;
+    border-radius: 25px;
+    border: 5px solid black
+}
+
+.grid{
+    margin: 0px auto;
+    width: 95%;
+    height: 95%;
+}
+
+.card{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+    width: 170px;
+    height: 240px;
+    border-radius: 25px;
+    bottom: auto;
+    padding: 25px;
+    margin: 5px;
+    border: 15px solid black 
+}
+
+.contenedor_limite_flex{
+    background-color: beige;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contenedor_padre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_header{
+    background: #020024;
+    background: linear-gradient(233deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    text-align: right;
+    text-wrap: wrap;
+    height: 180px;
+    border-bottom: 5px solid black;
+}
+
+.nav_{
+    text-align: right;
+    display: flex;
+    text-wrap: wrap;
+    color: black;
+}
+
+.body{
+    background-color: beige;
+}
+
+.footer{
+    background: #020024;
+    background: linear-gradient(233deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+@media screen and (max-width: 100px){
+    .navbar{
+        max-width: 1000px;
+        color: #ff2681;
+    }
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    margin: 10 auto;
+    border: 5px solid black;
+    height: 235px;
+    }
+
+nav :hover{
+    color: peru;
+}
+ul :hover{
+    color: peru;
+}
+.card :hover{
+    transform: scale(1.1);
+}
+
+.thrasher{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5 auto;
+}
+
+.instagram{
+    width: 5%;
+}
+p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
